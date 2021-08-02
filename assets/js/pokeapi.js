@@ -11,7 +11,7 @@ const getData = (url) => {
 const llenarDatos = (datos) => {
     let html = "";
     datos.forEach(pokemon => {
-        html += '<div class="col-3 mt-5">';
+        html += '<div class="col-sm-6 col-md-3 mt-5">';
         html += '<div class="card">';
         html += '<div class="card-body">';
         html += `<h5 class="card-title text-center text-capitalize">${pokemon.name}</h5>`
